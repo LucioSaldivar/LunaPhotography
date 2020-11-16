@@ -1,0 +1,58 @@
+.ContactForm {
+    height: 100%;
+    width: 100%;
+}
+/* CSS below handles the actual Form */
+form {
+    display: flex;
+    flex-direction: column;
+    height: 90%;
+    justify-content: space-between;
+}
+.inputs {
+    float: left;
+    height: 55%;
+    width: 100%;
+    text-align: center;
+}
+.inputs input {
+    margin: 4% 2%;
+    width: 45%;
+    height: 20%;
+    border-radius: 5px;
+    box-shadow: 7px 0 20px -2px rgb(78, 78, 78);
+}
+form textarea {
+    width: 95%;
+    height: 25%;
+    margin-left: 2.5%;
+    border-radius: 5px;
+    box-shadow: 7px 0 20px -2px rgb(78, 78, 78);
+}
+form button {
+    width: 20%;
+    height: 8.5%;
+    margin-left: 2.5%;
+    border-radius: 5px;
+    box-shadow: 7px 0 20px -2px rgb(78, 78, 78);
+}
+@media screen and (max-width: 950px) {
+    form {
+        height: 96%;
+    }
+    .inputs {
+        margin-top: 1%;
+    }
+    .inputs input {
+        height: 21%;
+        width: 44.7%;
+    }
+    form textarea {
+        height: 40%;
+        margin-bottom: 2%;
+    }
+    form button {
+        height: 8%;
+        margin-top: 3%;
+    }
+}
